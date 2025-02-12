@@ -9,15 +9,15 @@ import home4 from "../assets/home4.png";
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [aboutDropdown, setAboutDropdown] = useState(false);
-  const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
-  const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  // const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+  // const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
 
   return (
     <div className="w-full relative">
       {/* Top Bar */}
-      <div className="bg-[#094C3B] text-white text-sm py-2 text-center">
-        {/* Donation Donation Donation Donation Donation Donation  */}
-      </div>
+      {/* <div className="bg-[#094C3B] text-white text-sm py-2 text-center">
+        Donation Donation Donation Donation Donation Donation 
+      </div> */}
 
       <>
         {/* Navbar */}
@@ -26,7 +26,7 @@ export default function HomePage() {
             <div className="text-green-900 font-bold text-2xl">Umeedein</div>
 
             {/* Desktop Menu */}
-            <ul className="hidden md:flex space-x-6 text-gray-700">
+            <ul className="hidden md:flex space-x-8 text-gray-700 lg:ml-[15rem]">
               {["Home", "Donation", "V. Form", "Blog", "Contact"].map(
                 (item) => (
                   <li
@@ -55,7 +55,7 @@ export default function HomePage() {
                 {/* Dropdown Menu (Ensuring No Gap) */}
                 {aboutDropdown && (
                   <ul className="absolute left-0 top-full mt-0 w-48 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
-                    {["Who We Are", "Our Mission"].map((subItem) => (
+                    {["Our Story", "What We Offer"].map((subItem) => (
                       <li
                         key={subItem}
                         className="px-4 py-2 hover:bg-gray-100 cursor-pointer"

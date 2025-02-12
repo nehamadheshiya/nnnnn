@@ -6,7 +6,7 @@ import testimonials from "../assets/testimonial.png";
 const TestimonialSection = () => {
   return (
     <div
-      className="relative h-screen bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
+      className="relative md:h-screen bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${testimonials})` }}
     >
       {/* Left Section */}
