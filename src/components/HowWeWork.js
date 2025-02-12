@@ -5,17 +5,29 @@ import gift from "../assets/gift.png";
 
 const steps = [
   {
-    title: "Step 1: Schedule a Pickup",
+    title: (
+      <>
+        <span className="text-[#117C61] font-bold">Step 1:</span> Schedule a Pickup
+      </>
+    ),
     description: "Installing water wells and purification systems in areas with limited access to clean water.",
     image: time,
   },
   {
-    title: "Step 2: Donate at your Doorstep",
+    title: (
+      <>
+        <span className="text-[#117C61] font-bold">Step 2:</span> Donate at your Doorstep
+      </>
+    ),
     description: "Installing water wells and purification systems in areas with limited access to clean water.",
     image: delivery,
   },
   {
-    title: "Step 3: Receive Confirmation",
+    title: (
+      <>
+        <span className="text-[#117C61] font-bold">Step 3:</span> Receive Confirmation
+      </>
+    ),
     description: "Installing water wells and purification systems in areas with limited access to clean water.",
     image: gift,
   },

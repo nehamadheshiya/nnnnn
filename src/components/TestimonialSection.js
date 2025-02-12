@@ -6,7 +6,7 @@ import testimonials from "../assets/testimonial.png";
 const TestimonialSection = () => {
   return (
     <div
-      className="relative bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
+      className="relative h-screen bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: `url(${testimonials})` }}
     >
       {/* Left Section */}
@@ -14,7 +14,7 @@ const TestimonialSection = () => {
         className="md:w-1/2 space-y-4 p-6  md:p-12 rounded-lg"
     
       >
-        <div className="bg-white text-green-900 text-sm font-semibold py-3 px-8 rounded-full inline-block">
+        <div className="bg-white  text-green-900 text-sm font-semibold py-3 px-8 rounded-full inline-block">
           TESTIMONIAL
         </div>
         <h2 className="text-3xl md:text-4xl font-bold">

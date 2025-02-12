@@ -76,7 +76,7 @@ const Footer = () => {
 
       {/* Copyright Section */}
       <div className="bg-yellow-400 text-black text-center py-2 text-sm">
-        &copy; Copyright 2024 Raha. All rights reserved.
+        &copy; Copyright 2025 Umeedein. All rights reserved.
       </div>
     </footer>
   );
