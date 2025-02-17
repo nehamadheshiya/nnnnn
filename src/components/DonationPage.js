@@ -24,47 +24,47 @@ const donationItems = [
     fullText:
       "Ladies, men's, kids, children’s, baby, purses, belts, ties, wallets, dresses, shirts, pants, shoes. Virtually all types of Clothing.",
     shortText:
-      "Clothing items for all: men, women, kids, accessories, and shoes.",
+      "Clothing items for all: men, women .",
   },
   {
     title: "Household",
     icon: icon7,
     fullText:
       "Dishes, glasses, silverware, small household appliances, bedding, linens, pillows, draperies, curtains, rugs, jewelry, and decor.",
-    shortText: "Dishes, appliances, bedding, rugs, and decor.",
+    shortText: "Dishes, appliances, bedding.",
   },
   {
     title: "Electronic",
     icon: icon3,
     fullText:
       "Stereos, radios, Xbox, PlayStations, computers, laptops, monitors, DVD players, cameras, typewriters, and electronics. Not accepting TVs at this time.",
-    shortText: "Laptops, gaming consoles, cameras, and more.",
+    shortText: "Laptops, gaming consoles.",
   },
   {
     title: "Books",
     icon: icon10,
     fullText: "Hardcover, softcover, fiction, and non-fiction, e-readers.",
-    shortText: "Hardcover, softcover, fiction, and non-fiction, e-readers.",
+    shortText: "Hardcover, softcover, fiction.",
   },
   {
     title: "Equipment",
     icon: icon9,
     fullText:
       "Exercise equipment, small weight benches, weights, sporting equipment like golf clubs, baseballs, hockey equipment, bats and balls.",
-    shortText: "Exercise gear, weights, and sports equipment.",
+    shortText: "Exercise gear, weights.",
   },
   {
     title: "Small Furnishings",
     icon: icon8,
     fullText:
       "Mirrors, nightstands, headboards, office chairs, decor, and other small home items.",
-    shortText: "Small home furnishings and decor.",
+    shortText: "Small home furnishings.",
   },
   {
     title: "Others",
     icon: icon4,
     fullText: "Bikes, musical instruments, small filing cabinets, and more.",
-    shortText: "Bikes, musical instruments, small filing cabinets, and more.",
+    shortText: "Bikes, musical instruments and more.",
   },
 ];
 
@@ -75,14 +75,14 @@ const donationItemsRed = [
     fullText:
       "Couches, sofas, sleeper couches, box springs and mattresses",
     shortText:
-      "Couches, sofas, sleeper couches, box springs and mattresses",
+      "Couches, sofas, sleeper couches, box springs .",
   },
   {
     title: "NO LARGE APPLIANCE",
     icon: icon7,
     fullText:
       "Washers/dryers, refrigerators, freezers, dishwashers and stoves",
-    shortText: "Washers/dryers, refrigerators, dishwashers and stoves",
+    shortText: "Washers/dryers, refrigerators, freezers, dishwashers .",
   },
   {
     title: "TVs , bikes",
@@ -95,7 +95,7 @@ const donationItemsRed = [
     title: "OTHER:",
     icon: icon10,
     fullText: "Tires, food, any type of fuel, cash or checks. No hazardous materials please.",
-    shortText: "Tires, food, any type of fuel, cash or checks. No hazardous materials please. ",
+    shortText: "Tires, food, any type of fuel, cash or checks.  ",
   },
  
 ];
@@ -143,7 +143,7 @@ const DonationPage = () => {
               key={index}
               className="flex items-center p-4 bg-transparent relative"
             >
-              <div className="relative w-32 h-32 flex-shrink-0">
+              <div className="relative w-24 h-24 flex-shrink-0">
                 <img
                   src={yellowgreen}
                   alt="Background"
@@ -202,7 +202,7 @@ const DonationPage = () => {
               key={index}
               className="flex items-center p-4 bg-transparent relative"
             >
-              <div className="relative w-32 h-32 flex-shrink-0">
+              <div className="relative w-24 h-24 flex-shrink-0">
                 <img
                   src={redgreen}
                   alt="Background"
@@ -222,7 +222,7 @@ const DonationPage = () => {
                     className="w-full h-auto lg:h-36"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-3 lg:p-5">
-                    <h2 className="text-gray-600 text-lg font-bold bg-white bg-opacity-80 rounded-md">
+                    <h2 className="text-gray-600 text-base md:text-lg font-bold bg-white bg-opacity-80 rounded-md">
                       {item.title}
                     </h2>
                     <p className="text-gray-600 text-xs bg-white bg-opacity-80  rounded-md">
