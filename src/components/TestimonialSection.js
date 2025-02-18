@@ -7,7 +7,13 @@ const TestimonialSection = () => {
   return (
     <div
       className="relative md:h-screen bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${testimonials})` }}
+      style={{
+        backgroundImage: `url(${testimonials})`,
+        backgroundSize: "cover", // Ensures the image covers the entire div without distortion
+        backgroundPosition: "center", // Centers the image
+        backgroundRepeat: "no-repeat", // Prevents tiling
+       
+      }}
     >
       {/* Left Section */}
       <div

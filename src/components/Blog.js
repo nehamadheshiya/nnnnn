@@ -6,7 +6,7 @@ import vector from "../assets/Vector.png";
 import HowWeWork from './HowWeWork';
 
 
-const WhatWeOffer = () => {
+const Blog = () => {
   return (
     <div>
         <header
@@ -21,7 +21,7 @@ const WhatWeOffer = () => {
         />
         <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-          What We Offer
+          Blog
           </h1>
           <p className="mt-6 text-base md:text-lg font-medium">
             Help Support Our Charities!
@@ -92,4 +92,4 @@ const WhatWeOffer = () => {
   )
 }
 
-export default WhatWeOffer
+export default Blog

@@ -1,13 +1,19 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
+import logogif from "../assets/GIF.gif";
 
 const Footer = () => {
   return (
     <footer className="bg-[#094C3B] text-white mt-10">
       <div className="container mx-auto px-6 py-8">
-        
         {/* Logo and Search Box in one row for md/lg */}
-        <div className="flex flex-col md:flex-row justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">UMEEDEIN</h2>
+        <div className="flex  flex-col md:flex-row justify-between items-center mb-6">
+          <img src={logogif} alt="Logo" className="h-16 w-40 ml-0 md:ml-12" />
           {/* <div className="relative w-full md:w-auto mt-4 md:mt-0">
             <input
               type="email"
@@ -21,57 +27,65 @@ const Footer = () => {
         </div>
 
         {/* Grid layout for md/lg */}
-        <div className="grid grid-cols-1 mt-4 md:mt-12  md:grid-cols-4 gap-8 text-left">
-          {/* Column One */}
-          {/* <div>
-            <h3 className="font-semibold">COLUMN ONE</h3>
-            <ul className="mt-2 space-y-1">
-              <li>Twenty One</li>
-              <li>Thirty Two</li>
-              <li>Fourty Three</li>
-              <li>Fifty Four</li>
-            </ul>
-          </div> */}
+        <div className="px-6 md:px-20">
+          <div className="grid grid-cols-1 mt-4 md:mt-12 md:grid-cols-3 gap-8 text-left">
+            {/* Column One */}
+            <div>
+              <ul className="mt-2 space-y-1">
+              <a href="/">
+                <li className="font-semibold">Home</li>
 
-          {/* Column Two */}
-          <div>
-            {/* <h3 className="font-semibold">COLUMN TWO</h3> */}
-            <ul className="mt-2 space-y-1">
-              <li className="font-semibold">About</li>
-              <li className="font-semibold">Contact</li>
-              <li className="font-semibold">Blog</li>
-              <li className="font-semibold">Donation</li>
-            </ul>
-          </div>
+                </a>
+                <a href="what-we-offer">
+                <li className="font-semibold mt-2">About</li>
 
-          {/* Column Three */}
-          <div>
-            {/* <h3 className="font-semibold">COLUMN THREE</h3> */}
-            <ul className="mt-2 space-y-1">
-              <li className="font-semibold">Terms & Conditions</li>
-              <li className="font-semibold">Privacy Policies</li>
-              <li className="font-semibold">Cookies Policies</li>
-              {/* <li>Seven Eight</li> */}
-            </ul>
-          </div>
+                </a>
+                <a href="contact">
+                <li className="font-semibold mt-2">Contact</li>
+                </a>
 
-          {/* Column Four */}
-          <div>
-            <h3 className="font-semibold mt-2 space-y-1">Join Us</h3>
-            {/* <p className="mt-2">Join Us</p> */}
-            <div className="flex justify-start space-x-4 mt-4 md:mt-2 text-lg">
-              <FaYoutube />
-              <FaFacebookF />
-              <FaTwitter />
-              <FaInstagram />
-              <FaLinkedin />
+                <a href="blog">
+                <li className="font-semibold mt-2">Blog</li>
+
+                </a>
+                <a href="donation" className="mt-2">
+                <li className="font-semibold mt-2">Donation</li>
+
+                </a>
+              </ul>
+            </div>
+
+            {/* Column Two */}
+            <div>
+              <ul className="mt-2 space-y-1">
+                <a href="terms-conditions">
+                  <li className="font-semibold ">Terms & Conditions</li>
+                </a>
+                <a href="privacy-policy">
+                  <li className="font-semibold mt-2">Privacy Policies</li>
+                </a>
+                {/* <a href="terms-conditions">
+                  <li className="font-semibold mt-2">Cookies Policies</li>
+                </a> */}
+              </ul>
+            </div>
+
+            {/* Column Three */}
+            <div>
+              <h3 className="font-semibold mt-2">Join Us</h3>
+              <div className="flex justify-start space-x-4 mt-4 md:mt-2 text-lg">
+                <FaYoutube />
+                <FaFacebookF />
+                <FaTwitter />
+                <FaInstagram />
+                <FaLinkedin />
+              </div>
             </div>
           </div>
         </div>
 
         {/* Horizontal Line */}
         <div className="border-t border-gray-600 my-6"></div>
-
       </div>
 
       {/* Copyright Section */}

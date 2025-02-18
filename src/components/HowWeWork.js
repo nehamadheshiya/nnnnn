@@ -37,9 +37,9 @@ const HowWeWork = () => {
   return (
     <div className="flex flex-col items-center px-6 py-12 bg-gray-50">
       {/* Header Section */}
-      <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
+      {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
         START DONATIONS
-      </button>
+      </button> */}
       <h2 className="text-3xl font-bold mt-6 text-center text-gray-900">
         How We Work
       </h2>

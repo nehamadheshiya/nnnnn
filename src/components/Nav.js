@@ -2,7 +2,7 @@
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logogif from "../assets/GIF.gif"
 
 const Nav = () => {
       const [menuOpen, setMenuOpen] = useState(false);
@@ -11,17 +11,17 @@ const Nav = () => {
     <div>
          <>
         <nav className="bg-white shadow-md border-b border-gray-200 relative z-50">
-          <div className="container mx-auto px-4 lg:px-12 flex justify-between items-center py-5">
-            <div className="text-green-900 font-bold text-2xl">Umeedein</div>
+          <div className="container mx-auto px-4 lg:px-12 flex justify-between items-center py-3 ">
+          <img src={logogif} alt="Logo" className="h-16 w-40" />
 
             <ul className="hidden md:flex space-x-8 text-gray-700 lg:ml-[5rem]">
               {[
                 { name: "Home", path: "/" },
                 { name: "Donation", path: "/donation" },
                 // { name: "V. Form", path: "/volunteer" },
-                // { name: "Blog", path: "/blog" },
-                { name: "Privacy&Policy", path: "/privacy-policy" },
-                { name: "Terms&Conditions", path: "/terms-conditions" },
+                { name: "Blog", path: "/blog" },
+                // { name: "Privacy&Policy", path: "/privacy-policy" },
+                // { name: "Terms&Conditions", path: "/terms-conditions" },
                 { name: "Contact", path: "/contact" },
               ].map((item) => (
                 <li

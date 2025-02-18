@@ -14,6 +14,7 @@ import TermsConditions from "./components/TermsConditions";
 import ContactUs from "./components/ContactUs";
 import OurStory from "./components/OurStory";
 import WhatWeOffer from "./components/WhatWeOffer";
+import Blog from "./components/Blog";
 
 
 function App() {
@@ -42,6 +43,8 @@ function App() {
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/our-story" element={<OurStory />} />
+        <Route path="/blog" element={<Blog />} />
+
         <Route path="/what-we-offer" element={<WhatWeOffer />} />
 
 
