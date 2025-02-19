@@ -1,86 +1,85 @@
-
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logogif from "../assets/GIF.gif"
+import logogif from "../assets/GIF.gif";
 
 const Nav = () => {
-      const [menuOpen, setMenuOpen] = useState(false);
-      const [aboutDropdown, setAboutDropdown] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [aboutDropdown, setAboutDropdown] = useState(false);
   return (
     <div>
-         <>
+      <>
         <nav className="bg-white shadow-md border-b border-gray-200 relative z-50">
-          <div className="container mx-auto px-4 lg:px-12 flex justify-between items-center py-3 ">
-          <img src={logogif} alt="Logo" className="h-16 w-40" />
+          <div className="w-full flex justify-between items-center py-2 md:py-2.5">
+        
+            <img src={logogif} alt="Logo" className="h-16 w-40 ml-0 md:ml-2" />
 
-            <ul className="hidden md:flex space-x-8 text-gray-700 lg:ml-[5rem]">
-              {[
-                { name: "Home", path: "/" },
-                { name: "Donation", path: "/donation" },
-                // { name: "V. Form", path: "/volunteer" },
-                { name: "Blog", path: "/blog" },
-                // { name: "Privacy&Policy", path: "/privacy-policy" },
-                // { name: "Terms&Conditions", path: "/terms-conditions" },
-                { name: "Contact", path: "/contact" },
-              ].map((item) => (
-                <li
-                  key={item.name}
-                  className="hover:text-green-900 cursor-pointer relative group"
+            <div className="flex items-center space-x-10 pr-4 md:pr-8">
+         
+              <ul className="hidden md:flex space-x-10 text-gray-700">
+                {[
+                  { name: "Home", path: "/" },
+                  { name: "Donation", path: "/donation" },
+                  { name: "Blog", path: "/blog" },
+                  { name: "Contact", path: "/contact" },
+                ].map((item) => (
+                  <li
+                    key={item.name}
+                    className="hover:text-green-900 cursor-pointer relative group"
+                  >
+                    <Link to={item.path}>{item.name}</Link>
+                    <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#094C3B] transition-all duration-300 group-hover:w-full"></span>
+                  </li>
+                ))}
+
+                {/* About Us Dropdown */}
+                <div
+                  className="relative"
+                  onMouseEnter={() => setAboutDropdown(true)}
+                  onMouseLeave={() => setAboutDropdown(false)}
                 >
-                  <Link to={item.path}>{item.name}</Link>
+                  <li className="cursor-pointer flex items-center">
+                    About Us <ChevronDown size={18} className="ml-1" />
+                  </li>
                   <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#094C3B] transition-all duration-300 group-hover:w-full"></span>
-                </li>
-              ))}
 
-              {/* About Us Dropdown */}
-              <div
-                className="relative"
-                onMouseEnter={() => setAboutDropdown(true)}
-                onMouseLeave={() => setAboutDropdown(false)}
-              >
-                <li className="cursor-pointer flex items-center">
-                  About Us <ChevronDown size={18} className="ml-1" />
-                </li>
-                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-[#094C3B] transition-all duration-300 group-hover:w-full"></span>
-
-                {aboutDropdown && (
-                  <ul className="absolute left-0 top-full mt-0 w-48 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
-                    {[
-                      { name: "Our Story", path: "/our-story" },
-                      { name: "What We Offer", path: "/what-we-offer" },
-                    ].map((subItem) => (
-                      <li
-                        key={subItem.name}
-                        className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
-                      >
-                        <Link
-                          to={subItem.path}
-                          onClick={() => setAboutDropdown(false)}
+                  {aboutDropdown && (
+                    <ul className="absolute left-0 top-full mt-0 w-48 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
+                      {[
+                        { name: "Our Story", path: "/our-story" },
+                        { name: "What We Offer", path: "/what-we-offer" },
+                      ].map((subItem) => (
+                        <li
+                          key={subItem.name}
+                          className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                         >
-                          {subItem.name}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </ul>
+                          <Link
+                            to={subItem.path}
+                            onClick={() => setAboutDropdown(false)}
+                          >
+                            {subItem.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </ul>
 
-            {/* Donate Button */}
-            <button className="hidden md:block bg-[#094C3B] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition-all">
-              Donate Now
-            </button>
+              {/* Donate Button */}
+              <button className="hidden md:block bg-[#094C3B] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition-all">
+                Donate Now
+              </button>
 
-            {/* Mobile Menu Button */}
-            <button className="md:hidden" onClick={() => setMenuOpen(true)}>
-              <Menu
-                size={30}
-                className="transition-transform duration-300 ease-in-out transform hover:scale-110"
-              />
-            </button>
+              {/* Mobile Menu Button */}
+              <button className="md:hidden" onClick={() => setMenuOpen(true)}>
+                <Menu
+                  size={30}
+                  className="transition-transform duration-300 ease-in-out transform hover:scale-110"
+                />
+              </button>
+            </div>
           </div>
-          <hr className="border-t-1 border-gray-300 mb-2 md:mb-4" />
         </nav>
 
         {/* Mobile Menu Overlay */}
@@ -92,10 +91,10 @@ const Nav = () => {
         ></div>
 
         <div
-          className={`fixed top-0 right-0 w-64 bg-gray-50 shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[100] ${
+          className={`fixed top-0 right-0  bg-gray-50 w-52 shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[100] ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
-          style={{ maxHeight: "100vh", overflowY: "auto" }}
+          style={{ maxHeight: "100vh", overflowY: "auto" ,}}
         >
           <button
             className="absolute top-4 right-4"
@@ -108,9 +107,9 @@ const Nav = () => {
               { name: "Home", path: "/" },
               { name: "Donation", path: "/donation" },
               // { name: "V. Form", path: "/volunteer" },
-              // { name: "Blog", path: "/blog" },
-              { name: "Privacy&Policy", path: "/privacy-policy" },
-              { name: "Terms&Conditions", path: "/terms-conditions" },
+              { name: "Blog", path: "/blog" },
+              // { name: "Privacy&Policy", path: "/privacy-policy" },
+              // { name: "Terms&Conditions", path: "/terms-conditions" },
               { name: "Contact", path: "/contact" },
             ].map((item) => (
               <li
@@ -141,8 +140,8 @@ const Nav = () => {
               {aboutDropdown && (
                 <ul className="mt-2 pl-4 space-y-2">
                   {[
-                        { name: "Our Story", path: "/our-story" },
-                        { name: "What We Offer", path: "/what-we-offer" },
+                    { name: "Our Story", path: "/our-story" },
+                    { name: "What We Offer", path: "/what-we-offer" },
                   ].map((subItem) => (
                     <li
                       key={subItem.name}
@@ -172,7 +171,7 @@ const Nav = () => {
         </div>
       </>
     </div>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

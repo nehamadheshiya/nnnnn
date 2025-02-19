@@ -17,7 +17,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <header
-        className="relative bg-cover bg-center bg-no-repeat h-[90vh] md:h-[84vh] flex items-center justify-center px-6"
+        className="relative bg-cover bg-center bg-no-repeat h-[90vh] md:h-[86vh] flex items-center justify-center px-6"
         style={{ backgroundImage: `url(${background})` }}
       >
         {/* Background Overlay */}
