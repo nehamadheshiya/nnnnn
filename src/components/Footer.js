@@ -5,7 +5,8 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
-import logogif from "../assets/GIF.gif";
+import logogif from "../assets/om_01.png";
+
 
 const Footer = () => {
   return (

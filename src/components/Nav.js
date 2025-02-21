@@ -91,7 +91,7 @@ const Nav = () => {
         ></div>
 
         <div
-          className={`fixed top-0 right-0  bg-gray-50 w-52 shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[100] ${
+          className={`fixed top-0 right-0  bg-gray-50 w-52 shadow-2xl rounded-bl-lg p-6 transform transition-transform duration-300 z-[600] ${
             menuOpen ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ maxHeight: "100vh", overflowY: "auto" ,}}
