@@ -10,7 +10,7 @@ import icn4 from "../assets/icn4.png";
 
 const OurStory = () => {
   return (
-    <div>
+    <div className="mt-20">
       <header
         className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
@@ -45,117 +45,83 @@ const OurStory = () => {
       </div>
       <div className="max-w-7xl mx-auto p-6 text-gray-900">
         <section className="mb-6">
-          <h2 className="text-xl font-bold">
-            Supporting One Another to Create a Better World
-          </h2>
+       
           <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            At Umeedein, we believe that hope has the power to transform lives,
+            and every small act of kindness can create ripples of change.
+            Founded with a vision to make a tangible impact, we are dedicated to
+            uplifting communities, empowering individuals, and building a
+            society where no one is left behind.
           </p>
           <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
-          </p>
-          <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            Our journey began with a simple realisation—countless individuals
+            lack access to basic necessities, while many of us have the
+            resources to help but don’t always know where to start. Whether it's
+            unused household items, surplus food, educational materials, or even
+            just a little time to volunteer, every contribution has the
+            potential to change someone's life.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-bold">
-            Supporting One Another to Create a Better World
-          </h2>
           <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+            At Umeedein, we bridge this gap by connecting generosity with need.
+            Through our initiatives, we:
           </p>
-          <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
-          </p>
-       
         </section>
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold">
+            At Umeedein, we bridge this gap by connecting generosity with need.
+            Through our initiatives, we:
+          </h2>
+
+          <ul className="list-disc list-inside text-gray-700 mt-2 ">
+            <li className="py-2">
+              <strong>Helping Marginalised Communities:</strong> We provide
+              food, clothing, and educational materials to those in need,
+              ensuring they have the support to live with dignity.
+            </li>
+            <li className="py-2">
+              <strong>Promoting Sustainable Living :</strong> We encourage
+              responsible recycling and donations to reduce waste, protect the
+              environment, and create a more sustainable future.
+            </li>
+            <li className="py-2">
+              <strong>Empowering People with Skills:</strong> We offer training
+              programs, career guidance, and financial literacy workshops to
+              help individuals become independent and secure their futures.
+            </li>
+            <li className="py-2">
+              <strong>Encouraging Meaningful Decluttering:</strong>  We inspire people to donate unused items instead of throwing them away, turning clutter into something useful for those in need.
+
+            </li>
+            <li className="py-2">
+              <strong>Spreading the Joy of Giving:</strong>  We believe that kindness creates lasting change, and even small acts of generosity can bring happiness to others.
+
+
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+       
+       <p className="text-justify text-gray-700 mt-4">
+       With every step we take, we are driven by the belief that hope should not be a privilege but a right for everyone. At Umeedein, we are more than just an organisation—we are a movement of changemakers working tirelessly to create a future where kindness, sustainability, and community support thrive.
+
+       </p>
+       <p className="text-justify text-gray-700 mt-4">
+       This is our story, and we invite you to be a part of it. Every action matters whether it be volunteering, making a donation, or just raising awareness. Let's work together to bring hope to those who most need it.
+       </p>
+       <p className="text-justify text-gray-700 mt-4">
+       We extend our heartfelt gratitude to everyone who has been a part of this journey—our supporters for believing in our mission, our volunteers for dedicating their time and effort, and our partners for standing with us to create lasting change. Your commitment and support make all the difference.
+       </p>
+       <p className="text-justify text-gray-700 mt-4">
+       Let’s continue to uplift, inspire, and spread hope—because together, we can build a brighter future for all.
+       </p>
+       <p className="text-justify text-gray-900 font-bold mt-4">
+       Keep Spreading Hope, and Keep Making a Difference!
+       </p>
+     </section>
       </div>
       <div>
         <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">

@@ -12,12 +12,12 @@ export default function HomePage() {
   const [aboutDropdown, setAboutDropdown] = useState(false);
 
   return (
-    <div className="w-full relative">
+    <div className="w-full relative mt-20">
      
 
       {/* Hero Section */}
       <header
-        className="relative bg-cover bg-center bg-no-repeat h-[90vh] md:h-[86vh] flex items-center justify-center px-6"
+        className="relative bg-cover bg-center bg-no-repeat h-[90vh] md:h-[87vh] flex items-center justify-center px-6"
         style={{ backgroundImage: `url(${background})` }}
       >
         {/* Background Overlay */}
@@ -47,10 +47,10 @@ export default function HomePage() {
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
-          <h1 className="text-3xl md:text-5xl py-4 font-bold leading-tight">
+          <h1 className="text-3xl md:text-6xl py-4 font-bold leading-tight">
             Every Helping Hand, <br /> Every Heartfelt Change
           </h1>
-          <p className="mt-4 text-base md:text-lg py-4">
+          <p className="mt-4 text-base md:text-xl py-4">
             Every helping hand brings heartfelt change, creating ripples of hope
             and compassion. Each act of kindness lifts lives, inspiring others
             and uniting us in a shared journey toward a brighter, more

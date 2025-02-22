@@ -2,12 +2,12 @@ import React from "react";
 import { FaShoePrints, FaShoppingBag, FaPencilAlt, FaTshirt, FaBook, FaCouch } from "react-icons/fa";
 
 const donations = [
-  { name: "Shoes", icon: <FaShoePrints /> },
-  { name: "Bags", icon: <FaShoppingBag /> },
-  { name: "Stationary", icon: <FaPencilAlt /> },
-  { name: "Clothes", icon: <FaTshirt /> },
-  { name: "Books", icon: <FaBook /> },
-  { name: "Furniture", icon: <FaCouch /> },
+  { name: "Shoes", icon: <FaShoePrints /> ,title:"Help families by donating new or gently used shoes for all ages, including sneakers, boots, sandals, and formal footwear. Proper footwear provides comfort, protection, and confidence. "},
+  { name: "Household", icon: <FaShoppingBag /> ,title:"Help families create a comfortable home by donating kitchenware, bedding, curtains, towels, home décor, and baby care items. Small working appliances like blenders, coffee makers, and microwaves are also welcomed."},
+  { name: "Stationary", icon: <FaPencilAlt />,title:"Support education by donating school supplies like notebooks, pens, pencils, erasers, rulers, backpacks, and art materials. Essential stationery empowers students, fostering learning and creativity. All contributions help children build a brighter future." },
+  { name: "Clothes", icon: <FaTshirt />,title:"From everyday wear to seasonal outfits, we accept gently used clothing for men, women, and children. This includes dresses, shirts, pants, shoes, belts, wallets, and purses. Warm clothing like jackets and blankets is especially valuable during colder months." },
+  { name: "Books", icon: <FaBook />,title:"Knowledge should never go to waste. Donate books of all kinds—fiction, non-fiction, children's books, textbooks, and educational resources. E-readers and audiobooks are also helpful for those with accessibility needs." },
+  { name: "Furniture", icon: <FaCouch />,title:"We also accept compact and lightweight furnishings such as nightstands, office chairs, mirrors, and decorative items. Larger items may not be accepted due to logistical constraints." },
 ];
 
 const DonationGrid = () => {
@@ -18,11 +18,10 @@ const DonationGrid = () => {
         Start Donations
       </button>
       <h2 className="text-3xl font-bold mt-6 text-center text-gray-900">
-        Explore What you Donate
+        Explore What You Can Donate
       </h2>
       <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
-        Installing water wells and purification systems in areas with limited
-        access to clean water.
+      Small donations, big impact—give essentials, funds, or time and help transform lives today.
       </p>
 
       {/* Grid Section */}
@@ -41,9 +40,8 @@ const DonationGrid = () => {
             <h3 className="text-lg font-semibold mt-5 text-gray-900">{item.name}</h3>
 
             {/* Description */}
-            <p className="text-gray-500 text-sm mt-3 leading-relaxed">
-              Installing water wells and purification systems in areas with
-              limited access to clean water.
+            <p className="text-gray-500 text-base mt-3 leading-relaxed">
+              {item.title}
             </p>
           </div>
         ))}

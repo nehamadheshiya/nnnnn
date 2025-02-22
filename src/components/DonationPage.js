@@ -102,7 +102,7 @@ const donationItemsRed = [
 
 const DonationPage = () => {
   return (
-    <div>
+    <div className="mt-20">
       <header
         className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}

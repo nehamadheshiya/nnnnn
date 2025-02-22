@@ -26,7 +26,7 @@ function App() {
           path="/"
           element={
             <div className="App">
-              <HomePage />
+              <HomePage  />
               <Donations />
               <DonationSection />
               <HowWeWork />
@@ -45,7 +45,7 @@ function App() {
         <Route path="/our-story" element={<OurStory />} />
         <Route path="/blog" element={<Blog />} />
 
-        <Route path="/what-we-offer" element={<WhatWeOffer />} />
+        <Route path="/how-we-work" element={<WhatWeOffer />} />
 
 
       </Routes>

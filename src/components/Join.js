@@ -31,17 +31,20 @@ export default function Join() {
         {/* Content */}
         <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
           <h1 className="text-2xl md:text-3xl font-bold leading-tight">
-            Join Our Community of Donors and Volunteers: Be Part of Positive
-            Change in the World!
+            Join Our Community of Donors and Volunteers:<br></br> 
+            Be Part of Positive Change in the World!
           </h1>
-          <p className="mt-4 text-4xl md:text-5xl font-bold">154,859+</p>
-          <p className="mt-4 text-base md:text-lg font-medium">
+          <p className="mt-4 text-4xl md:text-5xl font-bold">131,295+</p>
+          {/* <p className="mt-4 text-base md:text-lg font-medium">
             Join the Many Who Already Support Our Mission
-          </p>
+          </p> */}
           <div className="mt-6 mb-4 md:mb-0 flex justify-center space-x-4">
+            <a href="/contact">
             <button className="bg-yellow-400 font-semibold text-black px-6 py-3 rounded-full shadow-md hover:bg-yellow-500 transition-all">
               Join Our Community
             </button>
+            </a>
+          
           </div>
         </div>
       </header>

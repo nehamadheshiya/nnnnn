@@ -1,15 +1,14 @@
-import React from 'react'
+import React from "react";
 import donationback from "../assets/donationback.png";
 import Footer from "./Footer";
 
 import vector from "../assets/Vector.png";
-import HowWeWork from './HowWeWork';
-
+import HowWeWork from "./HowWeWork";
 
 const WhatWeOffer = () => {
   return (
-    <div>
-        <header
+    <div className="mt-20">
+      <header
         className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
       >
@@ -21,75 +20,62 @@ const WhatWeOffer = () => {
         />
         <div className="relative z-10 max-w-3xl mx-auto text-center text-white">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-          What We Offer
+            How We Work
           </h1>
-          <p className="mt-6 text-base md:text-lg font-medium">
-            Help Support Our Charities!
+          <p className="mt-6 text-base md:text-xl font-medium">
+          Together, We Plan, Act, and Transform Lives!
           </p>
         </div>
       </header>
-    <HowWeWork/>
-    <div className="max-w-7xl mx-auto p-6 text-gray-900">
-    <div className="flex flex-col items-center px-6 py-8">
-        {/* Header Section */}
-        {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
+      <HowWeWork />
+      <div className="max-w-7xl mx-auto p-6 text-gray-900">
+        <div className="flex flex-col items-center px-6 py-8">
+          {/* Header Section */}
+          {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
           Start Donations
         </button> */}
-       
-      </div>
+        </div>
         <section className="mb-6">
           <h2 className="text-2xl font-bold">
             Supporting One Another to Create a Better World
           </h2>
+          <p className="text-justify text-gray-700 mt-4">We believe that every act of kindness, no matter how small, has the power to transform lives. Our mission is to make giving simple, seamless, and meaningful for you. Through a streamlined process, we ensure your donations reach those who need them most. From scheduling pickups to creating impact, here’s how we turn your generosity into hope and happiness for communities in need. Together, let’s make a difference, one donation at a time.</p>
           <p className="text-justify text-gray-700 mt-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including
-            versions of Lorem Ipsum.
+          UMEEDEIN makes it incredibly simple for you to make a difference through non-cash donations. We all have clothes, books, or household items lying unused, gathering dust. It’s time to give them a new purpose by donating to those who truly need them. Just schedule a pickup, and we’ll collect your donations from your doorstep. With UMEEDEIN, spreading hope and joy is just a click away. Let’s turn what you no longer need into someone else’s treasure!
           </p>
 
           <div className="flex flex-col items-center px-6 py-8">
-        {/* Header Section */}
-        {/* <button className="bg-yellow-500 text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
+            {/* Header Section */}
+            {/* <button className="bg-yellow-500 text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
           Start Donations
         </button> */}
-       
-      </div>
-         
+          </div>
         </section>
         <section className="mb-6">
-          <h2 className="text-2xl font-bold">
-          How to schedule a pickup
-          </h2>
+          <h2 className="text-2xl font-bold">Scheduling a Pickup Made Easy</h2>
           <p className="text-justify text-gray-700 mt-4">
-           1. Supporting one another is one of the most powerful ways we can make a positive impact in the world. When we extend a helping hand,
+          Donating should be hassle-free, and we’ve made sure of that! You can schedule a pickup at your convenience through our website or by contacting our team. Simply choose a date, time, and location, and our collection team will come right to your doorstep.
           </p>
           <p className="text-justify text-gray-700 mt-4">
-           2. Supporting one another is one of the most powerful ways we can make a positive impact in the world. When we extend a helping hand,
-          </p> <p className="text-justify text-gray-700 mt-4">
-           3. Supporting one another is one of the most powerful ways we can make a positive impact in the world. When we extend a helping hand,
-          </p>
-       
-         
-        </section>
-        </div>
-        <Footer/>
-    </div>
-  )
-}
+          To ensure smooth logistics and support our operations, a small convenience fee is charged for each pickup. This helps us continue providing efficient collection services while maximising the impact of your donations.
+          </p>{" "}
+          <p className="text-justify font-semibold text-xl text-gray-900 mt-4 py-2">
+          Ready to give? Schedule your pickup today and be a part of the change!<br></br>
+Be the Change
 
-export default WhatWeOffer
+          </p>
+          <p className="text-justify text-gray-700 mt-4">
+          Donating has never been easier. Schedule a pickup today and help us turn hope into action!
+          </p>{" "}
+          <p className="text-justify font-semibold text-xl text-gray-900 mt-4 py-2">
+          Together, let’s create a future filled with UMEEDEIN (hope).
+
+          </p>
+        </section>
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default WhatWeOffer;

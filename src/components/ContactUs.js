@@ -8,7 +8,7 @@ import FAQSection from "./FAQSection";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className="mt-20">
       <div>
         <div className="flex flex-col md:flex-row   p-6 md:p-10 max-w-7xl mx-auto  rounded-lg">
           {/* Left Section - Contact Info */}

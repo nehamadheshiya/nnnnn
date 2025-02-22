@@ -10,7 +10,7 @@ import quote from "../assets/Quotes.png";
 const TestimonialSection = () => {
   return (
     <div
-      className="relative md:h-screen   bg-yellow-500 text-white p-6 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
+      className="relative md:h-screen   bg-yellow-500 text-white p-12 md:p-20 flex flex-col md:flex-row items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage: `url(${testimonials})`,
         backgroundSize: "cover", // Ensures the image covers the entire div without distortion
@@ -36,26 +36,25 @@ const TestimonialSection = () => {
       <img
         src={home3}
         alt="#"
-        className="absolute bottom-0 left-4 md:left-0 w-20 md:w-20"
+        className="absolute bottom-0 left-0 w-12 md:w-20"
       />
       {/* Left Section */}
       <div className="md:w-1/2 space-y-4 md:p-12 rounded-lg text-center md:text-left flex flex-col items-center md:items-start">
-  <div className="bg-white text-green-900 text-sm font-semibold py-3 px-8 rounded-full inline-block">
-    TESTIMONIAL
-  </div>
-  <h2 className="text-3xl md:text-4xl font-bold">
-    Community Feedback on Our Mission
-  </h2>
-  <button className="bg-yellow-400 text-green-900 px-6 py-2 rounded-lg font-semibold mt-4 hover:bg-yellow-500 transition">
-    Join us
-  </button>
-</div>
-
+        <div className="bg-white text-green-900 text-sm font-semibold py-3 px-8 rounded-full inline-block">
+          TESTIMONIAL
+        </div>
+        <h2 className="text-3xl md:text-4xl font-bold hidden md:block">
+          Community Feedback on Our Mission
+        </h2>
+        <button className="bg-yellow-400 hidden md:block text-green-900 px-6 py-2 rounded-lg font-semibold mt-4 hover:bg-yellow-500 transition">
+          Join us
+        </button>
+      </div>
 
       {/* Right Section */}
       <div className="md:w-1/2 flex justify-center relative mt-14 md:mt-4 px-4">
         <div className="bg-white text-black rounded-xl p-6 shadow-lg max-w-md">
-          <p className="text-lg font-semibold">⭐ 4/5</p>
+          <p className="text-lg font-semibold ">⭐ 4/5</p>
           <p className="text-gray-700 mt-3 hidden md:block">
             "The team took time to understand our vision and delivered a sleek,
             professional site that not only looks great but also improved our

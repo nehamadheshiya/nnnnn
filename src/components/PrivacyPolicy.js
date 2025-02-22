@@ -6,12 +6,11 @@ import vector from "../assets/Vector.png";
 import icn1 from "../assets/icn1.png";
 import icn2 from "../assets/icn2.png";
 import home3 from "../assets/home3.png";
-import icn4 from "../assets/icn4.png"
-
+import icn4 from "../assets/icn4.png";
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <div className="mt-20">
       <header
         className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${donationback})` }}
@@ -40,128 +39,246 @@ const PrivacyPolicy = () => {
           Privacy Policy
         </h2>
         <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
-          Installing water wells and purification systems in areas with limited
-          access to clean water.
+        Transparency, Security, and Trust—Our Promise to You.
         </p>
       </div>
       <div className="max-w-7xl mx-auto p-6 text-gray-900">
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">1. Your Agreement</h2>
+          <h2 className="text-xl font-semibold">INTRODUCTION</h2>
           <p className="text-justify text-gray-700">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Umeedein ("we," "us," or "our") values and respects the privacy of
+            our users ("you" or "your"). This Privacy Policy outlines how we
+            collect, use, disclose, and protect your personal information when
+            you visit our website [website URL], including any associated media
+            channels, mobile websites, or applications (collectively, the
+            "Site").<br></br> Please review this Privacy Policy carefully. If
+            you do not agree with its terms, we advise you not to access the
+            Site. We reserve the right to modify this Privacy Policy at any time
+            for any reason. Any updates will be reflected by revising the "Last
+            Updated" date, and the changes will take effect immediately upon
+            posting. By continuing to use the Site after modifications, you
+            acknowledge and accept the updated Privacy Policy.<br></br> We
+            encourage you to revisit this Privacy Policy regularly to stay
+            informed about any changes. Your continued use of the Site signifies
+            your acceptance of the latest version of our Privacy Policy.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">2. Privacy</h2>
+          <h2 className="text-xl font-semibold">COLLECTION OF INFORMATION</h2>
           <p className="text-justify text-gray-700">
-            Your privacy is important to us. We ensure that your personal
-            information is protected and used responsibly.
+            We may collect information in various ways, including:
+          </p>
+          <ul className="list-disc list-inside text-gray-700 mt-2 ">
+            <li className="py-2">
+              <strong>Personal Data:</strong> We collect personal information
+              such as your name, email, phone number, and address when you
+              voluntarily provide it while interacting with our Site.
+            </li>
+            <li className="py-2">
+              <strong>Derivative Data:</strong> Our servers automatically
+              collect data like IP addresses, browser type, operating system,
+              and website interactions to enhance security, analyze traffic, and
+              improve user experience.
+            </li>
+            <li className="py-2">
+              <strong>Financial Data :</strong> When you make donations or
+              transactions, payment details are collected and securely processed
+              through third-party providers, ensuring compliance with industry
+              security standards and data protection.
+            </li>
+            <li className="py-2">
+              <strong>Third-Party Data:</strong> If you link social media
+              accounts to our Site, we may receive authorized profile
+              information, including name, email, and contacts, based on your
+              privacy settings.
+            </li>
+            <li className="py-2">
+              <strong>Survey & Contest Data:</strong> We collect information
+              from voluntary surveys, contests, or promotions, including
+              responses, preferences, and contact details, to improve services
+              and facilitate reward distribution when applicable.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold">USE OF INFORMATION</h2>
+          <p className="text-justify text-gray-700 mt-2">
+            Collected information may be used to::
+          </p>
+          <ul className="list-disc list-inside text-gray-700 mt-2 ">
+            <li className="py-2">Provide and improve our services.</li>{" "}
+            <li className="py-2">Process donations and transactions.</li>{" "}
+            <li className="py-2">
+              Send newsletters, updates, and promotional materials.
+            </li>
+            <li className="py-2">Respond to inquiries and provide support.</li>
+            <li className="py-2">
+              Comply with legal requirements and prevent fraud.
+            </li>
+            <li className="py-2">
+              Enhance website security and functionality.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold">DISCLOSURE OF INFORMATION</h2>
+          <p className="text-justify text-gray-700">
+            We may share your personal information in certain circumstances to
+            ensure compliance, enhance services, and provide a seamless
+            experience. The key instances where we may disclose your data
+            include:
+          </p>
+          <ul className="list-disc list-inside text-gray-700 mt-2 ">
+            <li className="py-2">
+              <strong>Legal Requirements:</strong> We may disclose your
+              information if required by law, regulatory authorities, or court
+              orders. This includes responding to legal processes, preventing
+              fraud, enforcing policies, or protecting our rights, safety, and
+              property or that of others.
+            </li>
+            <li className="py-2">
+              <strong>Derivative Data:</strong> Our servers automatically
+              collect data like IP addresses, browser type, operating system,
+              and website interactions to enhance security, analyze traffic, and
+              improve user experience.
+            </li>
+            <li className="py-2">
+              <strong>Marketing Communications:</strong> With your explicit
+              consent, we may share your information with third parties for
+              marketing, promotional, or advertising purposes. You can opt out
+              of such communications at any time through the settings provided
+              in our communications or by contacting us.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold">THIRD-PARTY WEBSITES</h2>
+          <p className="text-justify text-gray-700">
+            The Site may include links to third-party websites for your
+            convenience. However, it does not control or endorse their privacy
+            practices, policies, or content. These external sites may collect
+            and use your personal information differently from us. Before
+            sharing any information, we advise you to review their privacy
+            policies. Your interactions with third-party websites are solely at
+            your own risk, and we bear no responsibility for their actions.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">3. Data Collection</h2>
+          <h2 className="text-xl font-semibold">SECURITY OF INFORMATION</h2>
           <p className="text-justify text-gray-700">
-            We collect data to enhance your experience and improve our services.
-            This includes usage data, preferences, and interactions.
+            We implement administrative, technical, and physical safeguards to
+            protect your personal data from unauthorized access, disclosure, or
+            misuse. These measures include encryption, secure servers, and
+            restricted access to sensitive information. We cannot, however,
+            provide flawless safety because no security mechanism is foolproof.
+            While we strive to secure your data, you share information at your
+            own risk. We recommend using strong passwords and updating them
+            regularly for added security.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">4. Security</h2>
-          <p className="text-justify text-gray-700">
-            This Site and all its Contents are intended solely for personal,
-            non-commercial use. Except as expressly provided, nothing within the
-            Site shall be construed as conferring any license under our or any
-            third party's intellectual property rights, whether by estoppel,
-            implication, waiver, or otherwise. Without limiting the generality
-            of the foregoing, you acknowledge and agree that all content
-            available through and used to operate the Site and its services is
-            protected by copyright, trademark, patent, or other proprietary
-            rights. You agree not to: (a) modify, alter, or deface any of the
-            trademarks, service marks, trade dress (collectively "Trademarks")
-            or other intellectual property made available by us in connection
-            with the Site; (b) hold yourself out as in any way sponsored by,
-            affiliated with, or endorsed by us, or any of our affiliates or
-            service providers; (c) use any of the Trademarks or other content
-            accessible through the Site for any purpose other than the purpose
-            for which we have made it available to you; (d) defame or disparage
-            us, our Trademarks, or any aspect of the Site; and (e) adapt,
-            translate, modify, decompile, disassemble, or reverse engineer the
-            Site or any software or programs used in connection with it or its
-            products and services.
-          </p>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-xl font-semibold">5. Third-Party Services</h2>
-          <p className="text-justify text-gray-700">
-            Our services may integrate with third-party providers. We are not
-            responsible for their privacy practices, so please review their
-            policies.
-          </p>
-        </section>
-
-        <section className="mb-6">
-          <h2 className="text-xl font-semibold">6. User Rights</h2>
+          <h2 className="text-xl font-semibold">CHILDREN'S PRIVACY</h2>
           <p className="text-justify text-gray-700">
             {" "}
-            Our services may integrate with third-party providers. We are not
-            responsible for their privacy practices, so please review their
-            policies.
+            We don't intentionally gather or ask for personal data from
+            individuals younger than 13. Our Site is not intended for use by
+            minors, and we take precautions to protect their privacy. If a
+            parent or guardian believes that their child has provided us with
+            personal data, they should contact us immediately. Upon
+            verification, we will promptly delete any such information from our
+            records.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">7. Changes to Policy</h2>
+          <h2 className="text-xl font-semibold">DO-NOT-TRACK FEATURES</h2>
           <p className="text-justify text-gray-700">
-            property made available by us in connection with the Site; (b) hold
-            yourself out as in any way sponsored by, affiliated with, or
-            endorsed by us, or any of our affiliates or service providers; (c)
-            use any of the Trademarks or other content accessible through the
-            Site for any purpose other than the purpose for which we have made
-            it available to you; (d) defame or disparage us, our Trademarks, or
-            any aspect of the Site; and (e) adapt, translate, modify, decompile,
-            disassemble, or reverse engineer the Site or any software or
-            programs used in connection with it or its products and services.
+            Our Site does not currently respond to Do-Not-Track (DNT) signals
+            from web browsers. DNT is a setting that allows users to request
+            websites not to track their online activities. However, as no
+            uniform standard governs how websites should respond to these
+            signals, we do not recognize or act upon them. Users can manage
+            tracking preferences through browser settings or third-party tools
+            designed to limit online tracking.
           </p>
         </section>
 
         <section className="mb-6">
-          <h2 className="text-xl font-semibold">8. Contact Information</h2>
+          <h2 className="text-xl font-semibold">YOUR RIGHTS & CHOICES</h2>
+     
+          <ul className="list-disc list-inside text-gray-700 mt-2 ">
+            <li className="py-2">
+              <strong>Email Communications:</strong>  You can opt-out of promotional emails by following the unsubscribe link.
+
+            </li>
+            <li className="py-2">
+              <strong>Data Requests:</strong> You may request access, modification, or deletion of your data by contacting us.
+
+            </li>
+            <li className="py-2">
+              <strong>Marketing Communications:</strong> With your explicit
+              consent, we may share your information with third parties for
+              marketing, promotional, or advertising purposes. You can opt out
+              of such communications at any time through the settings provided
+              in our communications or by contacting us.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold">CONTACT US</h2>
           <p className="text-justify text-gray-700">
-            If you have any questions about this policy, please reach out to us
-            at support@example.com.
+            For questions regarding this Privacy Policy, contact us at:<br></br>
+            <b>Umeedein</b><br></br>
+           <b> info@umeedein.com</b><br></br>
+          <p className="pt-3">  This Privacy Policy is tailored for Umeedein and ensures compliance
+          with relevant data protection laws in India.</p>
           </p>
         </section>
       </div>
       <div>
-      <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">
-  {/* Icons */}
-  <img src={icn4} alt="vector" className="absolute top-4 left-4 w-16 h-16 md:w-28 md:h-28" />
-  <img src={icn2} alt="icon1" className="absolute top-0 right-0 w-16 h-16 md:w-28 md:h-28" />
-  <img src={icn1} alt="icon2" className="absolute bottom-0 left-20 w-16 h-16 md:w-24 md:h-24" />
-  <img src={home3} alt="#" className="absolute bottom-0 right-4 w-12 h-14 md:w-24 md:h-24" />
+        <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">
+          {/* Icons */}
+          <img
+            src={icn4}
+            alt="vector"
+            className="absolute top-4 left-4 w-16 h-16 md:w-28 md:h-28"
+          />
+          <img
+            src={icn2}
+            alt="icon1"
+            className="absolute top-0 right-0 w-16 h-16 md:w-28 md:h-28"
+          />
+          <img
+            src={icn1}
+            alt="icon2"
+            className="absolute bottom-0 left-20 w-16 h-16 md:w-24 md:h-24"
+          />
+          <img
+            src={home3}
+            alt="#"
+            className="absolute bottom-0 right-4 w-12 h-14 md:w-24 md:h-24"
+          />
 
-  {/* Centered Content */}
-  <div className="max-w-2xl">
-    <p className="text-4xl font-semibold">Subscribe to our Newsletter</p>
-    <p className="text-base mx-2 md:mx-10 mt-6">
-      Subscribe to our newsletter to stay updated with the latest news, exclusive content, and special offers! Join our 
-      community and be the first to know about exciting events and opportunities. Don’t miss out—sign up today!
-    </p>
-  </div>
-</div>
-
+          {/* Centered Content */}
+          <div className="max-w-2xl">
+            <p className="text-4xl font-semibold">
+              Subscribe to our Newsletter
+            </p>
+            <p className="text-base mx-2 md:mx-10 mt-6">
+              Subscribe to our newsletter to stay updated with the latest news,
+              exclusive content, and special offers! Join our community and be
+              the first to know about exciting events and opportunities. Don’t
+              miss out—sign up today!
+            </p>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

@@ -9,10 +9,10 @@ const Nav = () => {
   return (
     <div>
       <>
-        <nav className="bg-white shadow-md border-b border-gray-200 relative z-50">
+      <nav className="bg-white shadow-md border-b border-gray-200 fixed top-0 left-0 w-full z-50 h-20">
           <div className="w-full flex justify-between items-center py-2 md:py-2.5">
         
-            <img src={logogif} alt="Logo" className="h-16 w-40 ml-0 md:ml-2" />
+            <img src={logogif} alt="Logo" className="md:h-16 md:w-40 h-14 w-28 ml-0 md:ml-2" />
 
             <div className="flex items-center space-x-10 pr-4 md:pr-8">
          
@@ -47,7 +47,7 @@ const Nav = () => {
                     <ul className="absolute left-0 top-full mt-0 w-48 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
                       {[
                         { name: "Our Story", path: "/our-story" },
-                        { name: "What We Offer", path: "/what-we-offer" },
+                        { name: "How We Work", path: "/how-we-work" },
                       ].map((subItem) => (
                         <li
                           key={subItem.name}
@@ -67,9 +67,11 @@ const Nav = () => {
               </ul>
 
               {/* Donate Button */}
-              <button className="hidden md:block bg-[#094C3B] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition-all">
+              {/* <a href=""> */}
+              <button  className="hidden md:block bg-[#094C3B] text-white px-6 py-2 rounded-full shadow-md hover:bg-green-700 transition-all">
                 Donate Now
               </button>
+              {/* </a> */}
 
               {/* Mobile Menu Button */}
               <button className="md:hidden" onClick={() => setMenuOpen(true)}>
@@ -141,7 +143,7 @@ const Nav = () => {
                 <ul className="mt-2 pl-4 space-y-2">
                   {[
                     { name: "Our Story", path: "/our-story" },
-                    { name: "What We Offer", path: "/what-we-offer" },
+                    { name: "How We Work", path: "/how-we-work" },
                   ].map((subItem) => (
                     <li
                       key={subItem.name}

@@ -15,7 +15,7 @@ const Blog = () => {
   };
 
   return (
-    <div>
+    <div className="mt-20">
       {/* Hero Section */}
       <header
         className="relative bg-cover bg-center bg-no-repeat h-[50vh] lg:h-[65vh] flex items-center justify-center"

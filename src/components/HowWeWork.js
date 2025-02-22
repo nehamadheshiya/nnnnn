@@ -10,16 +10,16 @@ const steps = [
         <span className="text-[#117C61] font-bold">Step 1:</span> Schedule a Pickup
       </>
     ),
-    description: "Installing water wells and purification systems in areas with limited access to clean water.",
+    description: "Provide your pickup location and select a time slot that works for you. A nominal convenience fee* applies for doorstep service. If you prefer, use our self-drop option to donate at your convenience. We make it easy for you to contribute in a way that suits your schedule.",
     image: time,
   },
   {
     title: (
       <>
-        <span className="text-[#117C61] font-bold">Step 2:</span> Donate at your Doorstep
+        <span className="text-[#117C61] font-bold">Step 2:</span> Donate at Your Doorstep
       </>
     ),
-    description: "Installing water wells and purification systems in areas with limited access to clean water.",
+    description: "Our team will arrive at your doorstep during your chosen time slot to collect your donations. We ensure a seamless and hassle-free experience so you can contribute without any extra effort. Your generosity starts with just a few clicks and ends with a meaningful impact.",
     image: delivery,
   },
   {
@@ -28,7 +28,7 @@ const steps = [
         <span className="text-[#117C61] font-bold">Step 3:</span> Receive Confirmation
       </>
     ),
-    description: "Installing water wells and purification systems in areas with limited access to clean water.",
+    description: "As a token of appreciation, our brand partners offer surprise gifts* to our donors.It's how we express our gratitude to you for making a difference. Your act of generosity not only helps others but also brings you a little joy in return. Be ready to be pleasantly surprised!.",
     image: gift,
   },
 ];
@@ -44,7 +44,7 @@ const HowWeWork = () => {
         How We Work
       </h2>
       <p className="text-gray-600 text-center max-w-lg mt-3 text-base leading-relaxed">
-        Installing water wells and purification systems in areas with limited access to clean water.
+      Through collaboration, unwavering commitment, and meaningful action, we drive positive change in communities worldwide.
       </p>
 
       {/* Steps Section */}
