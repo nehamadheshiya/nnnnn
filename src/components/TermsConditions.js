@@ -29,7 +29,7 @@ const TermsConditions = () => {
           </p>
         </div>
       </header>
-      <div className="flex flex-col items-center px-6 py-8">
+      <div className="flex flex-col items-center px-6 py-4 md:py-8">
           {/* Header Section */}
           {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
             Start Donations
@@ -139,7 +139,7 @@ const TermsConditions = () => {
         </section>
       </div>
       <div>
-      <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">
+      <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-0 md:mt-10 flex flex-col items-center justify-center text-center px-6">
   {/* Icons */}
   <img src={icn4} alt="vector" className="absolute top-4 left-4 w-16 h-16 md:w-28 md:h-28" />
   <img src={icn2} alt="icon1" className="absolute top-0 right-0 w-16 h-16 md:w-28 md:h-28" />

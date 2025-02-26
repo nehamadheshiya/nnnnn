@@ -29,7 +29,7 @@ const Footer = () => {
               Terms & Condition
             </a>
             <span>|</span>
-            <a href="privacy-policy" className="hover:underline">
+            <a href="cookies-policy" className="hover:underline">
               Cookies Policy
             </a>
           </div>

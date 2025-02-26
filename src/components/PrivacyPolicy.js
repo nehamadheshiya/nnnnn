@@ -25,12 +25,12 @@ const PrivacyPolicy = () => {
           <h1 className="text-3xl md:text-5xl font-bold leading-tight">
             Privacy Policy
           </h1>
-          <p className="mt-6 text-base md:text-lg font-medium">
+          <p className="mt-2 md:mt-6 text-base md:text-lg font-medium">
             Help Support Our Charities!
           </p>
         </div>
       </header>
-      <div className="flex flex-col items-center px-6 py-8">
+      <div className="flex flex-col items-center px-6 py-2 md:py-8">
         {/* Header Section */}
         {/* <button className="bg-[#094C3B] text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wide shadow-md hover:bg-green-800 transition">
           Start Donations
@@ -42,7 +42,7 @@ const PrivacyPolicy = () => {
         Transparency, Security, and Trust—Our Promise to You.
         </p>
       </div>
-      <div className="max-w-7xl mx-auto p-6 text-gray-900">
+      <div className="max-w-7xl mx-auto  p-6 text-gray-900">
         <section className="mb-6">
           <h2 className="text-xl font-semibold">INTRODUCTION</h2>
           <p className="text-justify text-gray-700">
@@ -243,7 +243,7 @@ const PrivacyPolicy = () => {
         </section>
       </div>
       <div>
-        <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-10 flex flex-col items-center justify-center text-center px-6">
+        <div className="bg-[#094C3B] relative h-80 md:h-96 text-white mt-0 md:mt-10 flex flex-col items-center justify-center text-center px-6">
           {/* Icons */}
           <img
             src={icn4}

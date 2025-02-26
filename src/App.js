@@ -15,6 +15,7 @@ import ContactUs from "./components/ContactUs";
 import OurStory from "./components/OurStory";
 import WhatWeOffer from "./components/WhatWeOffer";
 import Blog from "./components/Blog";
+import Cookies from "./components/Cookies";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
 
         <Route path="/how-we-work" element={<WhatWeOffer />} />
+        <Route path="/cookies-policy" element={<Cookies />} />
 
 
       </Routes>
